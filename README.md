@@ -11,7 +11,7 @@ Este projeto consiste em uma aplicação que lê um arquivo CSV com dados dos pr
 
 ## Stack Utilizada
 
--   **Linguagem:** TypeScript
+-   **Linguagem:** TypeScript / NodeJS v20.17.0
 -   **Framework:** Express
 -   **Banco de Dados:** SQLite (em memória)
 -   **ORM:** Knex

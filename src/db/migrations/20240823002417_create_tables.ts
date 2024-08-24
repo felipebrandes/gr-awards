@@ -6,7 +6,7 @@ import {
     MOVIES_TABLE,
     PRODUCERS_TABLE,
     STUDIOS_TABLE
-} from "@/config/constants";
+} from "../../config/constants";
 
 export async function up(knex: Knex): Promise<void> {
     await knex.schema.createTable(MOVIES_TABLE, (table) => {

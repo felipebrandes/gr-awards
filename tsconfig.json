@@ -6,10 +6,7 @@
         "esModuleInterop": true,
         "outDir": "./dist",
         "sourceMap": true,
-        "noImplicitAny": false,
-        "paths": {
-            "@/*": ["./src/*"],
-        }
+        "noImplicitAny": false
     },
     "include": ["src/**/*", "index.ts"],
     "exclude": ["node_modules", "dist"]
